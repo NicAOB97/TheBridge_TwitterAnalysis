@@ -3,7 +3,7 @@
 Measuring the impact of The Bridge Tech. brand and advestising actions. 
 <em>Monitorizando las redes sociales de The Bridge Tech para medir el impacto de su marca y acciones comerciales.</em> 
 
-![The Bridge Tech Twitter Account](images/TheBridgeTechTwitter.jpeg?raw=true "The Bridge Tech Twitter Account") 
+![The Bridge Tech Twitter Account](images/TheBridgeTechTwitter.png?raw=true "The Bridge Tech Twitter Account") 
 
 1. Using the Twitter API, obtained tweets from 1/Jan/2022 till the present day 22/May/2022 where @TheBridge_Tech is mentioned. These were saved in SQL tables
 1. <em>Utilizando la API de Twitter, tweets donde se mencione la cuenta de @TheBridge_Tech desde 1/Enero/2022 hasta el día de ayer incluído 22/May/2022 recopilados. Almacenados en una base de datos SQL.</em>
