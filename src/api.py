@@ -1,7 +1,7 @@
 from flask import Flask, request
 import os
 import pickle
-from functions import remove_stopwords
+# from functions import remove_stopwords
 
 os.chdir(os.path.dirname(__file__))
 
@@ -19,8 +19,8 @@ def home():
 def consulta():
 
     tweet = request.args.get('tweet', None)
-    text = remove_stopwords(tweet)
-    predictions = model.predict([text])[0]
+    # text = remove_stopwords(tweet)
+    predictions = model.predict([tweet])[0]
 
     if predictions == 1:
         return  'Tweet de sentimiento negativo'
