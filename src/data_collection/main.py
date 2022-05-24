@@ -1,6 +1,5 @@
 import twint
 import nest_asyncio
-import pandas as pd
 
 # utiliza la libreria de TWINT para escrappear twitter y obtener la informacion deseada
 
