@@ -13,3 +13,11 @@ Measuring the impact of The Bridge Tech. brand and advestising actions. <br>
 
 4. Provider used to deploy API  <br> <em>Despliegue del modelo con un endpoint donde poder enviarle un cuerpo de texto y devuelva la predicción del sentimiento.</em>
   
+<h2>Pre-requisites :black_nib: </h2>
+
+```
+pip install -r requirements.txt 
+```
+
+<h2>AUTHOR :black_nib: </h2>
+- Nic Orchard @NicAOB97
