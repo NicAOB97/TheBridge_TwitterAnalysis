@@ -1,5 +1,6 @@
 # Función read_data
 import pandas as pd
+from nltk.corpus import stopwords
 
 def read_data(url):
     '''Lee los datos de la dirección proporcionada y devuelve un data frame'''
@@ -13,3 +14,8 @@ def top_tweets(df, number=3):
     top = top_tweets.iloc[0:number]
     tweets = top['tweet']
     return tweets
+
+def remove_stopwords(text):
+    '''Elimina las palabras como que no aportan valor al contenido de la frase como puede ser "la" '''
+    spanish_stopwords = stopwords.words('spanish')
+    return " ".join([word for word in text.split() if word not in spanish_stopwords])
